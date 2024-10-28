@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('clashofclans.jpeg'); /* Clash of Clans background */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay to make text readable */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFCC00; /* Clash of Clans gold */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FFCC00;
+    color: #3E2723;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #D32F2F; /* Clash of Clans red */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFCC00; /* Gold */
+    border-radius: 5px;
+    color: #3E2723; /* Brown */
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #FFCC00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact a {
+    color: #FFCC00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #3E2723; /* Dark brown */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links a {
+    color: #FFCC00;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
